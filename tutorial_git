@@ -1,0 +1,34 @@
+#Tutorial GitHub - Tatiane - 17.03.2020
+
+#criando um diretorio e entrando nele:
+
+$mkdir ML_pythonCodes
+$cd ML_pythonCodes/
+
+#criando arquivo README.md com string "# ML_pythonCodes" dentro dele:
+
+$echo "# ML_pythonCodes" >> README.md
+
+#inicinado o repositorio = cria uma pasta .git no pc:
+
+$git init
+
+#adicionando arquivo especifico da pasta
+$git add README.md
+
+#fazendo o commit = linha do tempo com informacoes uteis da edicao:
+
+$git commit -m "first commit"
+
+#conectando o repositorio online ao seu pc:
+
+$git remote add origin https://github.com/tfrancoUFRJ/ML_pythonCodes.git
+
+#adicionando os arquivos colocados com "git add" no repositorio online:
+
+$git push -u origin master
+
+#verificando status dos arquivos - vejo se possui arquivos ou modificacoes pendentes:
+
+$git status
+

@@ -1,0 +1,970 @@
+    1  sudo -s
+    2  l
+    3  ssh cmarques@ares.ltfd.ufrj.br
+    4  apt-get install escputil
+    5  escputil -c --raw-device /dev/usb/lp0
+    6  escputil -l
+    7  escputil -h
+    8  escputil -c
+    9  passwd
+   10  escputil -c
+   11  escputil -n
+   12  cd ..
+   13  exit
+   14  sudo escputil -P
+   15  man 1 escputil
+   16  apt-get install escputil
+   17  sudo -s
+   18  l
+   19  history > printer
+   20  which python
+   21  sudo apt-get install python3.5
+   22  sudo apt-get install python-pip
+   23  apt-get update
+   24  exit
+   25  sudo -s
+   26  cd Desktop/
+   27  python reator_isotermico.py 
+   28  sudo apt-get install python-numpy python-scipy
+   29  python reator_isotermico.py 
+   30  python reator_isotermico.py .
+   31  python -m pip install matiplot
+   32  python -m pip install -U pip
+   33  python -m pip install -U matplotlib
+   34  python -m pip install -U setuptools
+   35  sudo python -m pip install -U setuptools
+   36  sudo python -m pip install -U matplotlib
+   37  sudo python -m pip install -U record
+   38  sudo python -m pip install -U freetype
+   39  sudo python -m pip install -U freetype
+   40  python reator_isotermico.py 
+   41  sudo snap install spotify
+   42  sudo -s 
+   43  atp-get install snap
+   44  apt-get install snap
+   45  snap install spotify
+   46  apt install snapd
+   47  snap install spotify
+   48  curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
+   49  echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+   50  sudo apt-get update && sudo apt-get install spotify-client
+   51  wget https://repo.skype.com/latest/skypeforlinux-64.deb
+   52  sudo dpkg -i skypeforlinux-64.deb
+   53  wget -r -A.pdf https://docplayer.com.br/5517689-Plantas-medicinais-no-brasil-nativas-e-exotica.html
+   54  l
+   55  rm -r docplayer.com.br/
+   56  exit
+   57  sudo -s
+   58  uname -m
+   59  wget http://www.xm1math.net/texmaker/assets/files/texmaker_5.0.3_ubuntu_18_04_amd64.deb -O texmaker.deb
+   60  sudo dpkg -i texmaker.deb
+   61  sudo apt-get install -f
+   62  sudo apt-get install texlive-full
+   63  sudo apt-get update
+   64  sudo apt-get --fix-missing
+   65  sudo apt --fix-missing
+   66  sudo apt-get upgrade
+   67  pwd
+   68  apt install default-jre
+   69  l
+   70  sudo dpkg -i jdk-13.0.1_linux-x64_bin.deb
+   71  apt-get install myspell-pt-br
+   72  sudo dpkg -i jdk-13.0.1_linux-x64_bin.deb
+   73  eclipse
+   74  sudo dmidecode | less | grep Version | sed -n '2p'
+   75  sudo dmidecode -s basebord-product-name
+   76  sudo dmidecode -s baseboard-product-name
+   77  sudo dmidecode -s bios-release-date
+   78  sudo dmidecode -s baseboard-manufacturer
+   79  sudo lshw | grep product 
+   80  sudo snap install wps-office
+   81  sudo apt install xterm lsb csh ssh rpm xfonts-base xfonts-100dpi xfonts-100dpi-transcoded xfonts-75dpi xfonts-75dpi-transcoded xfonts-cyrillic libmotif-common mesa-utils libxm4 libxt6 libxext6 libxi6 libx11-6 libsm6 libice6  libxxf86vm1 libpng12-0 libpng16-16 libtiff5 gcc g++ libstdc++6 libstdc++5 libstdc++-5-dev
+   82  sudo apt install xterm lsb csh ssh rpm xfonts-base xfonts-100dpi xfonts-100dpi-transcoded xfonts-75dpi xfonts-75dpi-transcoded xfonts-cyrillic libmotif-common mesa-utils libxm4 libxt6 libxext6 libxi6 libx11-6 libsm6 libice6  libxxf86vm1 libpng16-16 libtiff5 gcc g++ libstdc++6 libstdc++5 libstdc++-5-dev
+   83  sudo apt-get update 
+   84  sudo apt-get upgrade
+   85  sudo apt-get install ttf-mscorefonts-installer
+   86  sudo snap install okular
+   87  sudo -s
+   88  sudo apt install xterm lsb csh ssh rpm xfonts-base xfonts-100dpi xfonts-100dpi-transcoded xfonts-75dpi xfonts-75dpi-transcoded xfonts-cyrillic libmotif-common mesa-utils libxm4 libxt6 libxext6 libxi6 libx11-6 libsm6 libice6  libxxf86vm1 libpng12-0 libpng16-16 libtiff5 gcc g++ libstdc++6 libstdc++5 libstdc++-5-dev
+   89  sudo apt install xterm lsb csh ssh rpm xfonts-base xfonts-100dpi xfonts-100dpi-transcoded xfonts-75dpi xfonts-75dpi-transcoded xfonts-cyrillic libmotif-common mesa-utils libxm4 libxt6 libxext6 libxi6 libx11-6 libsm6 libice6  libxxf86vm1 libpng16-16 libtiff5 gcc g++ libstdc++6 libstdc++5 libstdc++-5-dev
+   90  uname -m
+   91  sudo apt-get update
+   92  sudo updatedb
+   93  sudo ln -sf /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1 /usr/lib/libGL.so
+   94  sudo ln -sf /usr/lib/x86_64-linux-gnu/mesa/libGL.so.1 /usr/lib/libGL.so.1
+   95  sudo ln -sf /usr/lib/x86_64-linux-gnu/libGLU.so.1 /usr/lib/libGLU.so
+   96  sudo ln -sf /usr/lib/x86_64-linux-gnu/libXm.so.4 /usr/lib/libXm.so
+   97  sudo ln -sf /usr/lib/x86_64-linux-gnu/libXm.so.4 /usr/lib/libXm.so.3
+   98  sudo ln -sf /usr/lib/x86_64-linux-gnu/libXp.so.6 /usr/lib/libXp.so
+   99  sudo ln -sf /usr/lib/x86_64-linux-gnu/libXt.so.6 /usr/lib/libXt.so
+  100  sudo ln -sf /usr/lib/x86_64-linux-gnu/libXext.so.6 /usr/lib/libXext.so
+  101  sudo ln -sf /usr/lib/x86_64-linux-gnu/libXi.so.6 /usr/lib/libXi.so
+  102  sudo ln -sf /usr/lib/x86_64-linux-gnu/libX11.so.6 /usr/lib/libX11.so
+  103  sudo ln -sf /usr/lib/x86_64-linux-gnu/libSM.so.6 /usr/lib/libSM.so
+  104  sudo ln -sf /usr/lib/x86_64-linux-gnu/libICE.so.6 /usr/lib/libICE.so
+  105  sudo ln -sf /lib/x86_64-linux-gnu/libgcc_s.so.1 /lib/libgcc.so
+  106  sudo ln -sf /lib/x86_64-linux-gnu/libc.so.6 /lib/libc.so
+  107  sudo ln -sf /lib/x86_64-linux-gnu/libc.so.6 /lib64/libc.so.6
+  108  sudo dpkg-reconfigure dash
+  109  sudo apt-get update
+  110  sudo apt-get install git-core build-essential binutils-dev cmake flex zlib1g-dev qt4-dev-tools libqt4-dev libncurses5-dev libxt-dev rpm mercurial graphviz python python-dev  gcc-5 g++-5
+  111  cd 
+  112  cd ~
+  113  mkdir foam
+  114  cd foam
+  115  git clone git://git.code.sf.net/p/foam-extend/foam-extend-4.0 foam-extend-4.0
+  116  cd ~/foam/foam-extend-4.0
+  117  echo export WM_THIRD_PARTY_USE_BISON_27=1  >> etc/prefs.sh
+  118  echo export QT_SELECT=qt4  >> etc/prefs.sh
+  119  echo "export WM_CC='gcc-5'"  >> etc/prefs.sh
+  120  echo "export WM_CXX='g++-5'"  >> etc/prefs.sh
+  121  echo "export QT_BIN_DIR=/usr/bin/" >> etc/prefs.sh
+  122  source etc/bashrc
+  123  echo "alias fe40='source \$HOME/foam/foam-extend-4.0/etc/bashrc'" >> $HOME/.bashrc
+  124  fe40
+  125  export QT_BIN_DIR=/path/to/qmake_directory
+  126  echo "export QT_BIN_DIR=$QT_BIN_DIR" >> etc/prefs.sh
+  127  which qmake
+  128  which qmake-qt4
+  129  export QT_BIN_DIR=/usr/bin/
+  130  echo "export QT_BIN_DIR=$QT_BIN_DIR" >> etc/prefs.sh
+  131  export CUDA_ARCH=sm_30
+  132  echo "export CUDA_ARCH=sm_30" >> etc/prefs.sh
+  133  sed -i -e 's=rpmbuild --define=rpmbuild --define "_build_id_links none" --define=' ThirdParty/tools/makeThirdPartyFunctionsForRPM
+  134  sed -i -e 's/gcc/\$(WM_CC)/' wmake/rules/linux64Gcc/c
+  135  sed -i -e 's/g++/\$(WM_CXX)/' wmake/rules/linux64Gcc/c++
+  136  ./Allwmake.firstInstall
+  137  mkdir -p $FOAM_RUN
+  138  run
+  139  tut
+  140  icoFoam
+  141  dbnsFoam
+  142  fe40
+  143  cd ..
+  144  cd .
+  145  cd 
+  146  fe40
+  147  cd foam/
+  148  l
+  149  cd tatiane-4.0/
+  150  l
+  151  cd run
+  152  l
+  153  icoFoam
+  154  dbnsFoam
+  155  cd ..
+  156  l
+  157  cd ..
+  158  tut
+  159  l
+  160  cd compressible/
+  161  l.
+  162  l
+  163  cd dbnsFoam/
+  164  l
+  165  cd shockTube/
+  166  l
+  167  dbnsFoam
+  168  cd 
+  169  cd ..
+  170  cd home/
+  171  cd tatiane/
+  172  find home/flexbuld
+  173  find home/flexbuld -name FlexLexer.h
+  174  find  -name FlexLexer.h
+  175  sudo find -name FlexLexer.h
+  176  sudo find -name "FlexLexer.h"
+  177  sudo find /home -name "FlexLexer.h"
+  178  pwd
+  179  fe40
+  180  dbnsFoam 
+  181  blockMesh 
+  182  dbnsFoam 
+  183  ./Allwmake.firstInstall
+  184  cd ..
+  185  ./Allwmake.firstInstall
+  186  cd ~/foam/foam-extend-4.0
+  187  ./Allwmake.firstInstall
+  188  source etc/cshrc
+  189  source etc/bashrc
+  190  ./Allwmake.firstInstall
+  191  sudo apt-get install libfl-dev
+  192  ln -s /home/tatiane/FlexLexer.h
+  193  ./Allwmake.firstInstall
+  194  cd ..
+  195  apt-get update
+  196  apt-get install git-core build-essential binutils-dev cmake flex bison zlib1g-dev qt4-dev-tools libqt4-dev libqtwebkit-dev gnuplot libreadline-dev libncurses-dev libxt-dev libopenmpi-dev openmpi-bin libboost-system-dev libboost-thread-dev libgmp-dev libmpfr-dev python python-dev libcgal-dev
+  197  apt-get install libglu1-mesa-dev libqt4-opengl-dev
+  198  exit
+  199  sudo apt install virtualbox
+  200  vitual box
+  201  virtual box
+  202  sudo apt install virtualbox
+  203  virtualbox
+  204  sudo apt install virtualbox-qt
+  205  sudo -s
+  206  cd ~
+  207  mkdir OpenFOAM
+  208  cd OpenFOAM
+  209  git clone https://github.com/OpenFOAM/OpenFOAM-4.x.git
+  210  git clone https://github.com/OpenFOAM/ThirdParty-4.x.git
+  211  ln -s /usr/bin/mpicc.openmpi OpenFOAM-4.x/bin/mpicc
+  212  ln -s /usr/bin/mpirun.openmpi OpenFOAM-4.x/bin/mpirun
+  213  uname -m
+  214  source $HOME/OpenFOAM/OpenFOAM-4.x/etc/bashrc WM_LABEL_SIZE=64 FOAMY_HEX_MESH=yes
+  215  echo "alias of4x='source \$HOME/OpenFOAM/OpenFOAM-4.x/etc/bashrc $FOAM_SETTINGS'" >> $HOME/.bashrc
+  216  cd $WM_THIRD_PARTY_DIR
+  217  export QT_SELECT=qt4
+  218  sed -ibck -e 's/\[3456\]/[34567]/' ParaView-5.0.1/VTK/CMake/{GenerateExportHeader,vtkCompilerExtras}.cmake
+  219  uname -m
+  220  ./makeParaView -python -mpi -python-lib /usr/lib/x86_64-linux-gnu/libpython2.7.so.1.0 > log.makePV 2>&1
+  221  tut
+  222  of4x
+  223  tut
+  224  cd ..
+  225  wmRefresh
+  226  cd $WM_PROJECT_DIR
+  227  export QT_SELECT=qt4
+  228  ./Allwmake -j 4 > log.make 2>&1
+  229  icoFoam
+  230  fe40
+  231  dbnsFoam 
+  232  fe40
+  233  wclean
+  234  wmake
+  235  g++ -std=c++11
+  236  man gcc
+  237  $WM_PROJECT_DIR/wmake/rules/linux64Gcc/c++
+  238  sudo
+  239  sudo $WM_PROJECT_DIR/wmake/rules/linux64Gcc/c++
+  240  wclean
+  241  wmake
+  242  sudo apt-get install gfortran
+  243  wmake
+  244  wclean
+  245  wmake
+  246  fe40
+  247  wclean
+  248  wmake
+  249  lgfortan --version
+  250  lgfortan 
+  251  l
+  252  -lgfortran
+  253  sudo apt-get install gfortran
+  254  sudo apt-get upgrade
+  255  fe40
+  256  wclean
+  257  wmake
+  258  pwd
+  259  $(FOAM_USER_LIBBIN)/
+  260  fe40
+  261  $(FOAM_USER_LIBBIN)/
+  262  cd $(FOAM_USER_LIBBIN)/
+  263  pwd
+  264  gfortran -c dgauss.f -o dgauss.o
+  265  gfortran -c dcheb.f -o dcheb.o
+  266  cd ..
+  267  fe40
+  268  wclean
+  269  wmake
+  270  wclean
+  271  wmake
+  272  l
+  273  wclean
+  274  wmake
+  275  pwd
+  276  fe40
+  277  checkMesh 
+  278  dbnsFoam 
+  279  Mach
+  280  fe40
+  281  paraFoam 
+  282  paraview
+  283  sudo apt install paraview
+  284  paraview
+  285  touch Teste9.foam
+  286  paraview
+  287  gfortran -print-file-name=libgfortran.so
+  288  llvm-config
+  289  sudo apt install llvm
+  290  llvm-config
+  291  fe40
+  292  wclean
+  293  wmake
+  294  sudo update-alternatives --config gcc
+  295  gcc --version
+  296  g++ --version
+  297  gfortran --version
+  298  cd /usr/lib/gcc/x86_64-linux-gnu/
+  299  l
+  300  cd 7.4.0
+  301  l
+  302  sudo ln -s /usr/lib/gcc/x86_64-linux-gnu/4.8/libgfortran.a libgfortran.a
+  303  sudo ln -s /usr/lib/gcc/x86_64-linux-gnu/7.4.0/libgfortran.a libgfortran.a
+  304  sudo apt-get update
+  305  cd
+  306  sudo apt-get install gcc-fortran
+  307  LDFLAGS=-L/usr/lib/gcc/x86_64-linux-gnu/7.4.0/
+  308  l
+  309  cd foam/tatiane-4.0/run/tutorials/compressible/dbnsFoam/
+  310  l.
+  311  l
+  312  cd ..
+  313  cd applications/
+  314  l
+  315  cd onlyCondensation_H2O/
+  316  fe40
+  317  wclean
+  318  wmake
+  319  wclean
+  320  wmake
+  321  wclean
+  322  wmake
+  323  gfortran -c dgauss.f -o dgauss.o
+  324  gfortran -c dcheb.f -o dcheb.o
+  325  sudo apt-get install build-essential
+  326  gfortran -print-file-name=libgfortran.so
+  327  sudo ln -s /usr/lib/x86_64-linux-gnu/7/libgfortran.so /usr/lib/libgfortran.so
+  328  sudo ldconfig
+  329  cd foam/tatiane-4.0/applications/
+  330  l
+  331  cd onlyCondensation_H2O/
+  332  l
+  333  wclean
+  334  f4e0
+  335  fe40
+  336  wclean
+  337  wmake
+  338  cd home/foam/tatiane-4.0/lib/linux64GccDPOpt/
+  339  l
+  340  cd 
+  341  cd home/foam/tatiane-4.0/lib/linux64GccDPOpt/
+  342  cd foam/tatiane-4.0/lib/linux64GccDPOpt/
+  343  l
+  344  cd ..
+  345  cd applications/
+  346  cd onlyCondensation_H2O/
+  347  l
+  348  wclean
+  349  wmake
+  350  LD_DEBUG=all make
+  351  wclean
+  352  wmake
+  353  cd
+  354  sudo apt-get remove --auto-remove gfortran
+  355  sudo apt-get install gfortran
+  356  sudo rm -r libgfortran.so 
+  357  fe40
+  358  wclean
+  359  wmake
+  360  cd
+  361  ln -s /usr/lib/x86_64-linux-gnu/libgfrotran.so.4.0.0 /usr/lib/libgfortran.so
+  362  sudo ln -s /usr/lib/x86_64-linux-gnu/libgfrotran.so.4.0.0 /usr/lib/libgfortran.so
+  363  pwd
+  364  sudo rm libgfortran.so 
+  365  pwd
+  366  gfortran -c dcheb.f -o dcheb.o
+  367  gfortran -c dgauss.f -o dgauss.o
+  368  gfortran -c dgauss.f
+  369  gfortran -c dcheb.f
+  370  gfortran -c dcheb.f -o dcheb.o
+  371  gfortran -c dgauss.f -o dgauss.o
+  372  fe40
+  373  wclean
+  374  wmake
+  375  wclean
+  376  wmake
+  377  wclean
+  378  wmake
+  379  wclean
+  380  wmake
+  381  wclean
+  382  wmake
+  383  wclean
+  384  wmake
+  385  cd  /foam/tatiane-4.0/lib/linux64GccDPOpt/
+  386  cd /foam/tatiane-4.0/lib/linux64GccDPOpt/
+  387  cd .. 
+  388  cd ...
+  389  cd ..
+  390  cd lib/
+  391  l
+  392  cd 
+  393  l
+  394  cd /foam/tatiane-4.0/lib/linux64GccDPOpt/
+  395  cd ~/foam/tatiane-4.0/lib/linux64GccDPOpt/
+  396  cd 
+  397  cd ~/foam/tatiane-4.0/lib/linux64GccDPOpt/
+  398  l
+  399  cd ..
+  400  cd applications/
+  401  cd onlyCondensation_H2O/
+  402  l
+  403  wclean
+  404  wmake
+  405  cd
+  406  cd $(FOAM_USER_LIBBIN)
+  407  cd :~/foam/tatiane-4.0/applications/onlyCondensation_H2O
+  408  cd ~/foam/tatiane-4.0/applications/onlyCondensation_H2O
+  409  l
+  410  wclean
+  411  wmake
+  412  wclean
+  413  wmake
+  414  wclean
+  415  wmake
+  416  wclean
+  417  wmake
+  418  wclean
+  419  wmake
+  420  wclean
+  421  wmake
+  422  l
+  423  wmake
+  424  sudo ln -s /usr/lib/gcc/x86_64-linux-gnu/7/libgfortran.so /usr/lib/libgfortran.so
+  425  $WM_PROJECT_DIR/wmake/rules/linux64Gcc/c++
+  426  cd $WM_PROJECT_DIR/wmake/rules/linux64Gcc/c++
+  427  fe40
+  428  wclean
+  429  wmake
+  430  wclean
+  431  wmake
+  432  fe40
+  433  condensationFoam
+  434  sudo condensationFoam
+  435  fe40
+  436  wclean
+  437  wmake
+  438  fe40
+  439  wcelan
+  440  wclean
+  441  wmake
+  442  fe40
+  443  dbnsFoam 
+  444  onlyCondensation_H2O 
+  445  fe40
+  446  wclean
+  447  wmake
+  448  fe40
+  449  wclean
+  450  wmake
+  451  fe40
+  452  blockMesh 
+  453  checkMesh 
+  454  transformPoints -scale "(0.2 0.2 0.2)
+  455  transformPoints -scale "(0.2 0.2 0.2)"
+  456  checkMesh 
+  457  fe40
+  458  blockMesh 
+  459  transformPoints -scale "(0.2 0.2 0.2)"
+  460  checkMesh 
+  461  python juntando_funcoes.py 
+  462  fe40
+  463  blockMesh 
+  464  checkMesh 
+  465  transformPoints (0.2 0.2 0.2)
+  466  transformPoints (0.2, 0.2, 0.2)
+  467  transformPoints -scale (0.2 0.2 0.2)
+  468  transformPoints -scale "(0.2 0.2 0.2)"
+  469  checkMesh 
+  470  cd
+  471  sudo apt-get install cmake git g++ p7zip libpython-dev
+  472  pip install CoolProp
+  473  sudo pip install CoolProp
+  474  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  475  python get-pip.py
+  476  sudo python get-pip.py
+  477  sudo curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  478  python get-pip.py
+  479  sudo python get-pip.py
+  480  sudo pip install CoolProp
+  481  python Propreties_H2O.py 
+  482  sudo apt-get install python-tk
+  483  python Propreties_H2O.py 
+  484  python gerando_velocidade.py 
+  485  fe40
+  486  onlyCondensation_H2O
+  487  fe40
+  488  onlyCondensation_H2O_M6
+  489  onlyCondensation_H2O
+  490  fe40
+  491  paraFoam
+  492  fe40
+  493  onlyCondensation_H2O
+  494  onlyCondensation_H2O_M8
+  495  fe40
+  496  wclean
+  497  wmake
+  498  wclean
+  499  wmake
+  500  fe40
+  501  onlyCondensation_H2O_M4
+  502  python juntando_funcoes.py 
+  503  python Propreties_H2O.py 
+  504  python gerando_velocidade.py 
+  505  fe40
+  506  cd ..
+  507  l
+  508  checkMesh 
+  509  onlyCondensation_H2O
+  510  onlyCondensation_H2O_M4
+  511  fe40
+  512  onlyCondensation_H2O_M4
+  513  python juntando_funcoes.py 
+  514  python Propreties_H2O.py 
+  515  python gerando_velocidade.py 
+  516  fe40
+  517  onlyCondensation_H2O
+  518  cd /home/tatiane/foam/tatiane-4.0/run/tutorials/compressible/dbnsFoam/Casos_Agua_M6/6_moments_M400/0/system/
+  519  l
+  520  cd 
+  521  cd /home/tatiane/foam/tatiane-4.0/run/tutorials/compressible/dbnsFoam/Casos_Agua_M6/6_moments_M400/
+  522  l
+  523  onlyCondensation_H2O
+  524  onlyCondensation_H2O_M4
+  525  l
+  526  chmod --help
+  527  chmod -x
+  528  chmod -x gerando_arquivos.sh 
+  529  chmod +x gerando_arquivos.sh 
+  530  ./gerando_arquivos.sh 
+  531  pwd
+  532  ./gerando_arquivos.sh 
+  533  gnuplot plot_grafico_agua.plt 
+  534  ./gerando_arquivos.sh 
+  535  gnuplot plot_grafico_agua.plt 
+  536  ./gerando_arquivos.sh 
+  537  gnuplot plot_grafico_agua.plt 
+  538  ./gerando_arquivos.sh 
+  539  gnuplot plot_grafico_agua.plt 
+  540  ./gerando_arquivos.sh 
+  541  gnuplot plot_grafico_agua.plt 
+  542  ./gerando_arquivos.sh 
+  543  gnuplot plot_grafico_agua.plt 
+  544  ./gerando_arquivos.sh 
+  545  gnuplot plot_grafico_agua.plt 
+  546  python juntando_funcoes.py 
+  547  python gerando_velocidade.py 
+  548  python Propreties_H2O.py 
+  549  python gerando_velocidade.py 
+  550  fe40
+  551  onlyCondensation_H2O
+  552  fe40
+  553  onlyCondensation_H2O
+  554  vim momentTransport2.H 
+  555  sudo apt install vim
+  556  sudo apt install vim-gtk  
+  557  vim momentTransport2.H 
+  558  fe40
+  559  onlyCondensation_H2O_M8
+  560  fe40
+  561  checkMesh 
+  562  blockMesh 
+  563  transformPoints -scale "(0.2 0.2 0.2)"
+  564  checkMesh 
+  565  blockMesh 
+  566  transformPoints -scale "(0.2 0.2 0.2)"
+  567  blockMesh 
+  568  transformPoints -scale "(0.2 0.2 0.2)"
+  569  checkMesh 
+  570  onlyCondensation_H2O_M4
+  571  fe40
+  572  onlyCondensation_H2O_M4
+  573  wclean
+  574  fe40
+  575  wclean
+  576  wclean
+  577  wmake
+  578  fe40
+  579  onlyCondensation_H2O
+  580  onlyCondensation_H2O_M6
+  581  onlyCondensation_H2O
+  582  python juntando_funcoes.py 
+  583  python Propreties_H2O.py 
+  584  python gerando_velocidade.py 
+  585  fe40
+  586  onlyCondensation_H2O_M8
+  587  ./gerando_arquivos.sh 
+  588  gnuplot plot_grafico_agua.plt 
+  589  ./gerando_arquivos.sh 
+  590  gnuplot plot_grafico_agua.plt 
+  591  fe40
+  592  wclean
+  593  wmake
+  594  fe40
+  595  onlyCondensation_H2O_M2
+  596  onlyCondensation_H2O_M8
+  597  fe40
+  598  checkMesh 
+  599  onlyCondensation_H2O_M4
+  600  fe40
+  601  onlyCondensation_H2O_M8
+  602  fe40
+  603  wclean
+  604  wmake
+  605  fe40
+  606  onlyCondensation_H2O_M8
+  607  wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
+  608  sudo apt-get install apt-transport-https
+  609  fe40
+  610  wclean
+  611  wmake
+  612  wclean
+  613  wmake
+  614  fe40
+  615  wclean
+  616  wmake
+  617  vim log 
+  618  fe40
+  619  onlyCondensation_H2O_corrigindo 
+  620  onlyCondensation_H2O_corrigindo > log
+  621  fe40
+  622  wclean 
+  623  wmake
+  624  fe40
+  625  checkMesh 
+  626  fe40
+  627  onlyCondensation_H2O_M4
+  628  ./gerando_arquivos.sh 
+  629  fe40
+  630  wclean
+  631  wmake
+  632  fe40
+  633  onlyCondensation_H2O_M4
+  634  fe40
+  635  wclean
+  636  wmake
+  637  fe40
+  638  onlyCondensation_H2O_M4
+  639  sudo vim beamer.cls
+  640  cd
+  641  cd /home/tatiane/texmf
+  642  cd ..
+  643  cd tatiane/
+  644  cd ..
+  645  cd 
+  646  tlmgr repository add http://pgf-tikz.github.io/pgf/tlnet pgf-development
+  647  tlmgr pinning add pgf-development "*"
+  648  cd ..
+  649  l
+  650  cd texmf
+  651  sudo -s
+  652  apt install texlive-latex-recommended
+  653  sudo apt-get update -y
+  654  sudo apt-get install -y latex-beamer
+  655  add-apt-repository ppa:texlive-backports/ppa
+  656  sudo apt-get install texlive-collection-basic
+  657  fe40
+  658  onlyCondensation_H2O_corrigindo 
+  659  fe40
+  660  wclean
+  661  wamke
+  662  wmake
+  663  sudo apt-get install texlive-full texlive-latex-extra gnuplot git texmaker git-core build-essential binutils-dev cmake flex bison zlib1g-dev qt4-dev-tools libqt4-dev libqtwebkit-dev gnuplot libreadline-dev libncurses-dev libxt-dev libopenmpi-dev openmpi-bin libboost-system-dev libboost-thread-dev libgmp-dev libmpfr-dev python python-dev libcgal-dev libglu1-mesa-dev libqt4-opengl-dev -y
+  664  fe40
+  665  onlyCondensation_H2O_M4
+  666  fe40
+  667  onlyCondensation_H2O_corrigindo 
+  668  gnuplot plot_grafico_agua.plt 
+  669  fe40
+  670  onlyCondensation_H2O_M4
+  671  fe40
+  672  onlyCondensation_H2O_M4
+  673  fe40
+  674  onlyCondensation_H2O_M4
+  675  fe40
+  676  onlyCondensation_H2O_M4
+  677  fe40
+  678  onlyCondensation_H2O_M4
+  679  ./gerando_arquivos.sh 
+  680  ./gerando_arquivos.sh 
+  681  fe40
+  682  onlyCondensation_H2O_M4
+  683  fe40
+  684  onlyCondensation_H2O_M4
+  685  ./gerando_arquivos.sh 
+  686  gnuplot plot_grafico_agua.plt 
+  687  gnuplot plot_grafico_agua.plt 
+  688  fe40 
+  689  paraFoam 
+  690  fe40
+  691  checkMesh 
+  692  blockMesh 
+  693  checkMesh 
+  694  transformPoints -scale "(0.2 0.2 0.2)"
+  695  checkMesh 
+  696  python juntando_funcoes.py 
+  697  python Propreties_H2O.py 
+  698  python gerando_velocidade.py 
+  699  fe40
+  700  onlyCondensation_H2O_M4
+  701  fe40
+  702  checkMesh 
+  703  apt-get install lsb
+  704  sudo apt-get install lsb
+  705  sudo apt-get upgrade
+  706  grep -r "printer"
+  707  sudo -s
+  708  l
+  709  escputil -P
+  710  man 1 escputil
+  711  apt-get install escputil
+  712  escputil -P
+  713  sudo apt-get install -y lsb
+  714  apt-get install -y printer-driver-escpr cups cups-driver-gutenprint printer-driver-gutenprint system-config-printer
+  715  apt-get install -y sane xsane libsane
+  716  apt-get install -y printer-driver-escpr cups cups-driver-gutenprint printer-driver-gutenprint system-config-printer
+  717  apt-get install -y printer-driver-escpr
+  718  apt-get install cups-driver-gutenprint
+  719  apt-get install printer-driver-gutenprint=5.2.10-3
+  720  apt-get install -y printer-driver-escpr cups cups-driver-gutenprint 
+  721  apt-get install -y system-config-printer
+  722  sudo apt-get update
+  723  sudo apt-get install cups-driver-gutenprint
+  724  cups
+  725  apt-get install -y printer-driver-escpr cups cups-driver-gutenprint printer-driver-gutenprint system-config-printer
+  726  sudo apt-get install printer-driver-gutenprint
+  727  apt-get remove printer-driver-gutenprint
+  728  sudo apt-get update
+  729  sudo apt-get install printer-driver-gutenprint
+  730  python editor.py 
+  731  cd malha_fina/
+  732  l
+  733  python editor.py 
+  734  python editor.py 
+  735  python editor_rhom.py 
+  736  ssh cmarques@ares.ltfd.ufrj.br
+  737  cd ..
+  738  l
+  739  gnuplot graph.plt 
+  740  cd 
+  741  ssh cmarques@ares.ltfd.ufrj.br
+  742  python editor_rhom.py 
+  743  ssh cmarques@ares.ltfd.ufrj.br
+  744  gnuplot graph.plt 
+  745  ssh cmarques@ares.ltfd.ufrj.br
+  746  python editor_parafinico.py 
+  747  python editor_parafinico.py 
+  748  gnuplot graph.plt 
+  749  pwd
+  750  sudo unzip -o SSQ_UniversalLicenseServer_Module_PointwiseLLC_20180406152100 -d /opt/SolidSQUAD_License_Servers
+  751  sudo sh /opt/SolidSQUAD_License_Servers/install_or_update.sh
+  752  pointwise
+  753  cd ..
+  754  l
+  755  ./pw-V18.1R1-linux_x86_64-jre_Downloadly.ir.sh 
+  756  ./pw-V18.1R1-linux_x86_64-jre_Downloadly.ir.sh 
+  757  pointwise
+  758  pwd
+  759  pointwise 
+  760  l
+  761  cd PointWise\ 18.1\ R1\ build\ 2018-03-20\ Linux/
+  762  l
+  763  cd Launcher/
+  764  l
+  765  cp Pointwise.png $HOME/Pointwise/PointwiseV18_1R1
+  766  cp pointwise.png $HOME/Pointwise/PointwiseV18_1R1
+  767  sudo cp Pointwise.desktop /usr/share/applications
+  768  of4x
+  769  checkMesh > info_malha_fina
+  770  checkMesh > info_malha_media
+  771  checkMesh > info_malha_grossa
+  772  ssh cmarques@ares.ltdf.ufrj.br
+  773  ssh cmarques@ares.ltfd.ufrj.br
+  774  ping cmarques@ares.ltdf.ufrj.br
+  775  ping ares.ltdf.ufrj.br
+  776  sudo apt-get install qtqr
+  777  qtqr
+  778  ssh cmarques@ares.ltfd.ufrj.br
+  779  l
+  780  ssh cmarques@ares.ltfd.ufrj.br
+  781  ipython inlet.ipynb 
+  782  ssh cmarques@ares.ltfd.ufrj.br
+  783  pip install ipython
+  784  sudo pip install ipython
+  785  l
+  786  sudo pip install jupyterlab
+  787  pip install notebook
+  788  sudo pip install notebook
+  789  sudo pip install voila
+  790  ssh cmarques@ares.ltfd.ufrj.br
+  791  pwd
+  792  l
+  793  pwd
+  794  gnuplot graph.plt 
+  795  gnuplot graph_dp.plt 
+  796  of4x
+  797  massHeatBuoyantPimpleFoam
+  798  touch malha_fina.foam
+  799  pv552
+  800  paraFoam
+  801  of4x
+  802  paraFoam 
+  803  0f4x
+  804  OF4X
+  805  of4x
+  806  checkMesh 
+  807  eclipse 
+  808  ssh cmarques@ares.ltfd.ufrj.br
+  809  cd ~/meu_projeto
+  810  sudo apt update
+  811  sudo apt install python3-pip python3-dev
+  812  sudo -H pip3 install --upgrade pip
+  813  sudo -H pip3 install virtualenv
+  814  mkdir ~/meu_projeto
+  815  cd ~/meu_projeto
+  816  virtualenv meu_projeto_env
+  817  source meu_projeto_env/bin/activate
+  818  pip install jupyter
+  819  jupyter notebook
+  820  gnuplot graph_dp.plt 
+  821  cd ..
+  822  cd
+  823  ssh cmarques@ares.ltfd.ufrj.br
+  824  pwd
+  825  touch malha_media.foam
+  826  pv552
+  827  pv557
+  828  ssh cmarques@ares.ltfd.ufrj.br
+  829  sudo apt-get install pdfmod
+  830  apt-get upgrade
+  831  sudo apt-get upgrade
+  832  wget https://github.com/torakiki/pdfsam/releases/download/v4.0.4/pdfsam_4.0.4-1_amd64.deb -O pdfsam.deb
+  833  sudo dpkg -i pdfsam.deb
+  834  sudo apt-get install -f
+  835  sudo apt install ./pdfsam.deb
+  836  sudo apt-get upgrade
+  837  sudo escputil -c
+  838  sudo escputil -l
+  839  sudo escputil -a
+  840  sudo escputil -l
+  841  history > hitorico_novo
+  842  apt-get install escputil
+  843  sudo apt-get install escputil
+  844  escputil -h
+  845  escputil -c
+  846  gnuplot graph_2V_template_NTT.plt 
+  847  gnuplot graph_2V_template_Q.plt 
+  848  gnuplot graph_2V_template_Q.plt
+  849  gnuplot graph_2V_template_Q
+  850  gnuplot graph_2V_template_Q 
+  851  gnuplot graph_2V_template_Q
+  852  gnuplot graph_vazao_novo.plt 
+  853  gnuplot graph_NTT_novo.plt 
+  854  gnuplot graph_2V_template_NTT.plt 
+  855  gnuplot graph_NTT_novo.plt 
+  856  gnuplot graph_vazao_novo.plt 
+  857  gnuplot graph
+  858  gnuplot graph_2V_template_NTT.plt 
+  859  gnuplot graph_2V_template_Q.plt 
+  860  gnuplot graph_2V_template_Q 
+  861  gsettings reset-recursively org.cinnamon
+  862  ssh cmarques@ares.ltfd.ufrj.br
+  863  of4x
+  864  l
+  865  paraFoam
+  866  l
+  867  pv552
+  868  touch casos_malha_media.foam
+  869  pv552
+  870  pv570
+  871  pv557
+  872  l
+  873  pwd
+  874  cluster
+  875  ssh cmarques@ares.ltfd.ufrj.br
+  876  pv557
+  877  service ssh restart
+  878  ssh cmarques@ares.ltfd.ufrj.br
+  879  sudo vim ssh_config 
+  880  cluster 
+  881  ssh cmarques@ares.ltfd.ufrj.br
+  882  l
+  883  ssh cmarques@ares.ltfd.ufrj.br -o ServerAliveInterval=15
+  884  cluster
+  885  l
+  886  cluster
+  887  of4x
+  888  pv557
+  889  apt-get purge wps-office
+  890  apt-get purge kingsoft-office
+  891  dpkg --get-selections | grep wps
+  892  apt-get remove libwps-0.4-4:amd64
+  893  exit
+  894  sudo -s
+  895  cluster
+  896  chmod -u:xwr
+  897  chmod -u:xwr postProcess_RIG.sh 
+  898  chmod --he
+  899  chmod -u:xw postProcess_RIG.sh 
+  900  chmod -u=xwr postProcess_RIG.sh 
+  901  ./postProcess_RIG.sh 
+  902  sudo apt-get update
+  903  sudo apt-get upgrade
+  904  sudo apt-get autoclean
+  905  sudo du -sh /var/cache/apt
+  906  sudo apt-get autoclean
+  907  sudo apt-get clean
+  908  journalctl --disk-usage
+  909  sudo journalctl --vacuum-time=3d
+  910  sudo add-apt-repository ppa:oguzhaninan/stacer -y
+  911  sudo apt-get update
+  912  sudo apt-get install stacer -y
+  913  cluster
+  914  pv557
+  915  of4x
+  916  paraFoam 
+  917  touch malha_stv.foam
+  918  pv557
+  919  l
+  920  pv557
+  921  pv570
+  922  gnuplot graph_rhom.plt 
+  923  gnuplot graph_rhom.plt .
+  924  python mum_pos.py 
+  925  l
+  926  git init
+  927  git config --global user.name "Tatiane Franco Machado" git config --global user.email "tatianefranco91@gmail.com" 
+  928  git config --global user.name "Tatiane Franco Machado" 
+  929  git config --global user.email "tatianefranco91@gmail.com" 
+  930  git remote add origin https://github.com/tfrancoUFRJ/ML_pythonCodes.git
+  931  git status
+  932  git add .
+  933  git commit "teste"
+  934  git commit -m "teste"
+  935  git push -u origin master
+  936  git init
+  937  git status
+  938  git add .
+  939  git commit -m "teste"
+  940  git push -u origin master
+  941  git remote add origin https://github.com/tfrancoUFRJ/ML_pythonCodes.git
+  942  git add .
+  943  git commit -m "teste"
+  944  git push -u origin master
+  945  git init
+  946  git remote rename origin old-origin
+  947  git remote add origin https://github.com/tfrancoUFRJ/ML_pythonCodes.git
+  948  git status
+  949  git add .
+  950  git status
+  951  git commit -m "teste"
+  952  git status
+  953  git push -u origin master
+  954  git pull -u origin master
+  955  git pull --help
+  956  mkdir ML_pythonCodes
+  957  cd ML_pythonCodes/
+  958  l
+  959  echo "# ML_pythonCodes" >> README.md
+  960  git init
+  961  git add README.md
+  962  git commit -m "first commit"
+  963  git remote add origin https://github.com/tfrancoUFRJ/ML_pythonCodes.git
+  964  git push -u origin master
+  965  git status
+  966  git add probes_code.txt 
+  967  git commit -m "testando push"
+  968  git push -u origin master
+  969  l
+  970  history>tutorial
